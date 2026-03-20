@@ -1,26 +1,26 @@
 class Kasetto < Formula
   desc "An extremely fast AI skills manager"
   homepage "https://github.com/pivoshenko/kasetto"
-  version "1.0.0"
+  version "1.1.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/pivoshenko/kasetto/releases/download/v1.0.0/kasetto-aarch64-apple-darwin.tar.gz"
-      sha256 "cafaa4a5975065121fef464376e0c63eea490e412e548932e4d419c36003c70d"
+      url "https://github.com/pivoshenko/kasetto/releases/download/v1.1.0/kasetto-aarch64-apple-darwin.tar.gz"
+      sha256 "c40b1181c46c33b95a7eaec485cf37af4284b42919b9baf76452f2b43d87cade"
     else
-      url "https://github.com/pivoshenko/kasetto/releases/download/v1.0.0/kasetto-x86_64-apple-darwin.tar.gz"
-      sha256 "fe0341406558114655dcac21a4892ad6039a8dd7dc31b3fbad64e5f93bee56fd"
+      url "https://github.com/pivoshenko/kasetto/releases/download/v1.1.0/kasetto-x86_64-apple-darwin.tar.gz"
+      sha256 "f97c3c51d646b671b67292c3270f28368b032e1282fdf84a8248b06417bfab4e"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/pivoshenko/kasetto/releases/download/v1.0.0/kasetto-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "49ecf2696034d5051b991712bbf3e3a49970d996c3d7db39e9e97d3da56a9450"
+      url "https://github.com/pivoshenko/kasetto/releases/download/v1.1.0/kasetto-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "6be1736ef7f45ae6d4d1f9c790f6582e5d64560aae675ec23d62c22d866eb679"
     else
-      url "https://github.com/pivoshenko/kasetto/releases/download/v1.0.0/kasetto-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ac887bb963ee47e1a0b534d9f23470055c6d20822ac6c4c83fdf771929a59899"
+      url "https://github.com/pivoshenko/kasetto/releases/download/v1.1.0/kasetto-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "c3c805a4d5e687c39b27ba9ec2232f155f4e984bf4784d1f68bf38df60d99b8b"
     end
   end
 
