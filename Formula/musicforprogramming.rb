@@ -1,26 +1,26 @@
 class Musicforprogramming < Formula
   desc "A terminal player for musicforprogramming.net, written in Rust."
   homepage "https://github.com/pivoshenko/musicforprogramming"
-  version "1.4.0"
+  version "1.4.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/pivoshenko/musicforprogramming/releases/download/v1.4.0/musicforprogramming-aarch64-apple-darwin.tar.gz"
-      sha256 "dde074bcd3a14a80b07f8b7f3ef9aa43fdd0538dd8afd865cc95ec6b087b4ef6"
+      url "https://github.com/pivoshenko/musicforprogramming/releases/download/v1.4.2/musicforprogramming-aarch64-apple-darwin.tar.gz"
+      sha256 "5aaedf57c109c21518bb6c25e566123cf0110951d57ceca74f6e1397ad049abd"
     else
-      url "https://github.com/pivoshenko/musicforprogramming/releases/download/v1.4.0/musicforprogramming-x86_64-apple-darwin.tar.gz"
-      sha256 "b2da5d297a2edf3b3971a177bb9431004315f8869308984ddf0d78e0c4f1c58e"
+      url "https://github.com/pivoshenko/musicforprogramming/releases/download/v1.4.2/musicforprogramming-x86_64-apple-darwin.tar.gz"
+      sha256 "e201834153060319fbab4b6469bb819901857ec0cdce5da21fff63b52c992b9e"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/pivoshenko/musicforprogramming/releases/download/v1.4.0/musicforprogramming-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "2d10a63e3413c379af9ad3b4b08fed28dccb2361b048326c5c063b8419edad32"
+      url "https://github.com/pivoshenko/musicforprogramming/releases/download/v1.4.2/musicforprogramming-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "41f47fd0a9dc29881a58dbdbe9521abf0f66038c1a92abcd950a5afdc365106f"
     else
-      url "https://github.com/pivoshenko/musicforprogramming/releases/download/v1.4.0/musicforprogramming-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "377d70dc1c6723303207cda51d7bd9751d75b6143001d69d545604cf448d9114"
+      url "https://github.com/pivoshenko/musicforprogramming/releases/download/v1.4.2/musicforprogramming-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "be6193be5305bce59141ec2c10a57eaae2e36cc2bdc9c66178f1e2ef3c30d9c6"
     end
   end
 
